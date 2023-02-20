@@ -1,11 +1,8 @@
-nums=[]
-print("Only 4 elements allowed")
-for i in range(4):
-    n=int(input("Enter element :"))
-    nums.append(n)
-midpoint=len(nums)//2
-left=nums[:midpoint]
-right=nums[midpoint:]
-c=list((str(left[1])* (left[0])))
-d=list((str(right[1])* (right[0])))
-print((list(map(int,c)))+ (list(map(int,d))))
+nums=[1,2,3,4,5,6]
+l=[]
+for i in range(0,len(nums),2):
+    a=nums[i]
+    b=nums[i+1]
+    l=l+[b]*a
+print(l)
+
