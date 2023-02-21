@@ -9,3 +9,4 @@ while num!=0:
         num-=1
         i+=1
 print(i)
+
