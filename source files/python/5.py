@@ -1,3 +1,4 @@
+#goal paraser interpretation
 string=input('Enter using "G","()","(al)": ')
 command={'G':'G','g':'G','()':'o','(al)':'al'}
 for cha in command.keys():
